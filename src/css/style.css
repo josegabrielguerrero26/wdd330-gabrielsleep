@@ -1,17 +1,17 @@
 :root {
-  --font-body: Arial, Helvetica, sans-serif;
+  --font-body: times, Helvetica, sans-serif;
   --font-headline: Haettenschweiler, "Arial Narrow Bold", sans-serif;
   /* colors */
-  --primary-color: #f0a868;
-  --secondary-color: #525b0f;
-  --tertiary-color: #a4b8c4;
+  --primary-color: #e3ecb8;
+  --secondary-color: #2b2e16;
+  --tertiary-color: #4e83a5;
   --light-grey: #d0d0d0;
   --dark-grey: #303030;
 
   /* sizes */
-  --font-base: 18px;
-  --small-font: 0.8em;
-  --large-font: 1.2em;
+  --font-base: 20px;
+  --small-font: 0.9em;
+  --large-font: 1.0em;
 }
 * {
   box-sizing: border-box;
@@ -32,7 +32,7 @@ header {
 }
 .logo {
   line-height: 60px;
-  width: 245px;
+  width: 350px;
   overflow: hidden;
   display: flex;
   font-size: 30px;
@@ -58,7 +58,7 @@ header {
 }
 .logo--square {
   font-size: var(--small-font);
-  width: 110px;
+  width: 150px;
   height: 80px;
 
   flex-direction: column;
@@ -120,7 +120,7 @@ button {
   padding: 2px;
   border: solid 1px black;
   border-radius: 10px;
-  background-color: #f0a868;
+  background-color: #c9b4a2;
 }
 
 /* End cart icon styles */
