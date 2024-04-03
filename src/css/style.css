@@ -1,10 +1,10 @@
 :root {
   --font-body: times, Helvetica, sans-serif;
-  --font-headline: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --font-headline: Haettenschweiler, "Arial Black", sans-serif;
   /* colors */
   --primary-color: #e3ecb8;
   --secondary-color: #2b2e16;
-  --tertiary-color: #4e83a5;
+  --tertiary-color: #285430;
   --light-grey: #d0d0d0;
   --dark-grey: #303030;
 
@@ -35,7 +35,7 @@ header {
   width: 350px;
   overflow: hidden;
   display: flex;
-  font-size: 30px;
+  font-size: 40px;
   text-align: right;
   font-family: var(--font-headline);
 }
@@ -43,6 +43,30 @@ header {
   width: 60px;
   height: 60px;
 }
+
+.signup {
+  line-height: 60px;
+  width: 100px;
+  overflow: hidden;
+  display: flex;
+  font-size: 20px;
+  text-align: right;
+  color: black;
+  font-family: "Arial Black", sans-serif;
+  text-decoration: none; /* Add this line */
+}
+.prod {
+  line-height: 60px;
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+  font-size: 20px;
+  text-align: right;
+  color: black;
+  font-family: "Arial Black", sans-serif;
+  text-decoration: none; /* Add this line */
+}
+
 .logo a {
   text-decoration: none;
   color: var(--font-body);
